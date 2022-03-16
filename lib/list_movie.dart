@@ -33,8 +33,8 @@ class ListMovie extends StatelessWidget {
           child: Column(
             children: [
               Image.network(
-                original_title,
-                width: double.infinity,
+                poster_path,
+                width: 200,
               ),
               SizedBox(
                 height: 16,
